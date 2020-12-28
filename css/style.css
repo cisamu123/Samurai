@@ -1,0 +1,180 @@
+.classpng {
+ text-align: center;
+flex: center;
+
+}
+
+.classpng2 {
+ text-align: center;
+flex: left;
+
+}
+
+.classpng3 {
+padding-bottom: 1000px;
+
+}
+
+.video {
+position: relative;
+z-index: 1;
+padding-bottom: 56.25%;
+}
+
+.video__media {
+	width: 100%;
+	height: auto;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.intro {
+	max-height: 100vh;
+	overflow: hidden;
+	position: relative;
+
+	background: url(img/Wallpaper.png)center no-repeat;
+	background-size: cover;
+
+}
+
+.intro:after {
+
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+background-color: rgba(0, 0, 0,.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.intro__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.intro__title {
+	margin: 0;
+ font-size: 45px;
+ color: #fff;
+ text-align: center;
+
+}
+
+.intro__image {
+	margin: 0;
+ font-size: 45px;
+ flex: center;
+
+}
+
+.Text {
+
+text-align: center;
+font-family: fantasy;
+
+
+
+}
+
+.copy {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   font-size: 22px;
+}
+
+.copy2 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   font-size: 100px;
+}
+
+.admin {
+*/ Admin Premium edition */
+flex: center;
+text-align: right;
+
+}
+
+.copy3 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   font-size: 42px;
+}
+
+.CenterAU {
+	flex: center;
+	text-align: center;
+}
+
+body {
+background-color: #2498D3FF;
+}
+
+.copy4 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   font-size: 42px;
+   font-family: fantasy;
+}
+
+.copy5 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: right;
+   font-size: 15px;
+   font-family: fantasy;
+   float: right;
+}
+
+.CenterAU2 {
+	flex: center;
+	text-align: center;
+	font-size: 30px;
+}
+
+.copy6 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   font-size: 15px;
+   font-family: fantasy;
+   float: center;
+}
+
+.copy7 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   font-size: 12px;
+   font-family: fantasy;
+   float: center;
+}
